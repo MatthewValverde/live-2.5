@@ -1,0 +1,138 @@
+{
+  "maxOnScreen": 1,
+  "models": [
+    {
+      "type": "3DAnimatedModel",
+      "name": "Emoji3D_Cool",
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000001.obj",
+      "modelShift": [ 0, 0, 0 ],
+      "modelScale": 2.5,
+      "SequenceJSON": "./Assets/fx/emojis_3d/cool/sequence.json"
+    },
+    {
+      "type": "3DAnimatedModel",
+      "name": "Emoji3D_Kiss",
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000001.obj",
+      "modelShift": [ 0, 0, 0 ],
+      "modelScale": 2.5,
+      "SequenceJSON": "./Assets/fx/emojis_3d/kiss/sequence.json"
+    },
+    {
+      "type": "3DAnimatedModel",
+      "name": "Emoji3D_Like",
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000001.obj",
+      "modelShift": [ -0.4, 0, 0 ],
+      "modelScale": 3.5,
+      "SequenceJSON": "./Assets/fx/emojis_3d/like/sequence.json"
+    },
+    {
+      "type": "3DAnimatedModel",
+      "name": "Emoji3D_Smile",
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000001.obj",
+      "modelShift": [ 0, 0, 0 ],
+      "modelScale": 2.5,
+      "SequenceJSON": "./Assets/fx/emojis_3d/smile/sequence.json"
+    }
+  ],
+
+  "renderParams": [
+     {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "cullFace": "false",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.3, 0 ],
+        [ "ambientLight", 0.3, 0.3, 0.3 ],
+        [ "diffuseLight", 1, 1, 1 ],
+        [ "specularLight", 0.4, 0.4, 0.4 ],
+        [ "specularPower", 10 ]
+      ]
+    }
+  ],
+
+  "initialModules": [ 0, 0, 0, 0 ],
+
+  "modules": [
+    {
+      "iconPath": "Assets/fx/emojis_3d/cool/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/emojis_3d/cool/texture.png"
+          ]
+        },
+        {
+          "visible": "false"
+        },
+        {
+          "visible": "false"
+        },
+        {
+          "visible": "false"
+        }
+      ]
+    },
+    {
+      "iconPath": "Assets/fx/emojis_3d/kiss/icon.png",
+      "suits": [
+        {
+          "visible": "false"
+        },
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/emojis_3d/kiss/texture.png"
+          ]
+        },
+        {
+          "visible": "false"
+        },
+        {
+          "visible": "false"
+        }
+      ]
+    },
+    {
+      "iconPath": "Assets/fx/emojis_3d/like/icon.png",
+      "suits": [
+        {
+          "visible": "false"
+        },
+        {
+          "visible": "false"
+        },
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/emojis_3d/like/texture.png"
+          ]
+        },
+        {
+          "visible": "false"
+        }
+      ]
+    },
+    {
+      "iconPath": "Assets/fx/emojis_3d/smile/icon.png",
+      "suits": [
+        {
+          "visible": "false"
+        },
+        {
+          "visible": "false"
+        },
+        {
+          "visible": "false"
+        },
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/emojis_3d/smile/texture.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+
+  "iconPath": "./Assets/fx/daft_punk/icon.png",
+  "maxOnScreen": 2,
+
+  "models": [
+    {
+      "type": "3DModel",
+      "name": "GuyManuel",
+      "OBJ": "./Assets/fx/daft_punk/GuyManuel/guy_manuel.obj",
+      "MTL": "./Assets/fx/daft_punk/GuyManuel/guy_manuel.mtl",
+      "modelShift": [ 0, 0, -0.1 ],
+      "modelScale": 1.8
+    },
+    {
+      "type": "3DModel",
+      "name": "Thomas",
+      "OBJ": "./Assets/fx/daft_punk/Thomas/thomas.obj",
+      "MTL": "./Assets/fx/daft_punk/Thomas/thomas.mtl",
+      "modelShift": [ 0, 0, -0.1 ],
+      "modelScale": 2.0
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./Assets/shaders/vertex/reflections.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.5, 0 ],
+        [ "ambientLight", 0.33, 0.33, 0.33 ],
+        [ "diffuseLight", 0.67, 0.67, 0.45 ],
+        [ "specularLight", 1, 1, 1 ],
+        [ "specularPower", 20 ]
+      ]
+    }
+  ],
+
+  "initialModules": [ 0, 0, 0, 0, 0 ],
+
+  "modules": [
+    {
+      "iconPath": "./Assets/fx/daft_punk/GuyManuel/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/daft_punk/GuyManuel/textures/Texture.jpg"
+          ]
+        },
+        {
+          "visible": "false"
+        }
+      ]
+    },
+    {
+      "iconPath": "./Assets/fx/daft_punk/Thomas/icon.png",
+      "suits": [
+        {
+          "visible": "false"
+        },
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/daft_punk/Thomas/textures/Texture.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "Sequence": [
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000001.obj",
+      "duration": 60.0
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000002.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000003.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000004.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000005.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000006.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000007.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000008.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000009.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000010.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000011.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000012.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000013.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/like/like_000014.obj",
+      "duration": 12.0
+    }
+  ]
+}

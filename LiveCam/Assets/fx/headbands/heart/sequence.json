@@ -1,0 +1,56 @@
+{
+  "Sequence": [
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000001.obj",
+      "duration": 30.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000002.obj",
+      "duration": 1.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000003.obj",
+      "duration": 1.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000004.obj",
+      "duration": 1.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000005.obj",
+      "duration": 1.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000006.obj",
+      "duration": 1.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000007.obj",
+      "duration": 2.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000006.obj",
+      "duration": 2.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000005.obj",
+      "duration": 2.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000004.obj",
+      "duration": 3.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000003.obj",
+      "duration": 3.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000002.obj",
+      "duration": 3.0
+    },
+    {
+      "OBJ": "./Assets/fx/headbands/heart/hb_000001.obj",
+      "duration": 4.0
+    }
+  ]
+}

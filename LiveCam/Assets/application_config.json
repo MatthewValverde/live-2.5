@@ -1,0 +1,25 @@
+{
+  "inputWidth": 1920,
+  "inputHeight": 1080,
+  "outputWidth": 1920,
+  "outputHeight": 1080,
+  "antiAliasing": "SSAA_4X",
+  "filterConfig": "./assets/fx/config.json",
+  "faceDetector": "Caffe",
+  "landmarkDetector": "Caffe3D",
+  "maxTargets": 4,
+  "targetLocatedDelay": 600,
+  "targetLostDelay": 200,
+  "fpsLock": 60,
+  "scanIntensity": 1.2,
+  "xySmoothing": 30,
+  "zSmoothing": 60,
+  "skybox": [
+    "Assets/skybox/SKY_RIGHT.jpg",
+    "Assets/skybox/SKY_LEFT.jpg",
+    "Assets/skybox/SKY_TOP.jpg",
+    "Assets/skybox/SKY_BOTTOM.jpg",
+    "Assets/skybox/SKY_FRONT.jpg",
+    "Assets/skybox/SKY_BACK.jpg"
+  ]
+}

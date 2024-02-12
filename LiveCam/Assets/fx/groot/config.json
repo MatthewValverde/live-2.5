@@ -1,0 +1,48 @@
+{
+
+	"iconPath": "./Assets/fx/groot/icon.png",
+  
+  "models": [
+    {
+      "type": "3DModel",
+      "name": "helmet",
+      "OBJ": "./Assets/fx/groot/groot.obj",
+      "MTL": "./Assets/fx/groot/groot.mtl",
+      "modelShift": [ 0, 0, -0.1 ],
+      "modelScale": 1.5
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "normalMap": "./Assets/fx/groot/normalmap_G.jpg",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.5, 0 ],
+        [ "ambientLight", 0.33, 0.33, 0.33 ],
+        [ "diffuseLight", 0.67, 0.67, 0.45 ],
+        [ "specularLight", 0.4, 0.4, 0.4 ],
+        [ "specularPower", 10 ]
+      ]
+    }
+  ],
+
+	"initialModules": [0, 0, 0, 0, 0],
+
+	"modules": [
+    {
+      "iconPath": "./Assets/fx/groot/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/groot/colormap_G.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

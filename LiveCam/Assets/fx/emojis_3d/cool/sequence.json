@@ -1,0 +1,99 @@
+{
+  "Sequence": [
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000001.obj",
+      "duration": 60.0
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000002.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000003.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000004.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000005.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000006.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000007.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000008.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000009.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000010.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000011.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000012.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000013.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000014.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000015.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000016.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000017.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000018.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000019.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000020.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000021.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000022.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000023.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000024.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000025.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000026.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000027.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000028.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000029.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000030.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/cool/cool_000031.obj",
+      "duration": 20.0
+    }
+  ]
+}

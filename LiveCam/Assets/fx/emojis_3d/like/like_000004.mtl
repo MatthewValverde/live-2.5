@@ -1,0 +1,24 @@
+# Blender MTL File: 'like.blend'
+# Material Count: 2
+
+newmtl phong2
+Ns 200.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd texture.png
+
+newmtl phong3
+Ns 200.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd textures\\1_phong9SG_BaseColor.png

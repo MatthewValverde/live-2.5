@@ -1,0 +1,55 @@
+{
+
+  "iconPath": "./Assets/fx/headbands/icon.png",
+  "maxOnScreen": 2,
+
+  "models": [
+    {
+      "type": "DepthMask",
+      "zOffset": -0.033,
+      "modelScale": 1.0
+    },
+    {
+      "type": "3DAnimatedModel",
+      "name": "Heart_HEadband",
+      "OBJ": "./Assets/fx/headbands/heart/heart_headband.obj",
+      "MTL": "./Assets/fx/headbands/heart/heart_headband.mtl",
+      "modelShift": [ 0, 1.0, 0.1 ],
+      "modelScale": 2.1,
+      "SequenceLooped": "false",
+      "SequenceJSON": "./Assets/fx/headbands/heart/sequence.json"
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.5, 0 ],
+        [ "ambientLight", 0.33, 0.33, 0.33 ],
+        [ "diffuseLight", 0.67, 0.67, 0.45 ],
+        [ "specularLight", 1, 1, 1 ],
+        [ "specularPower", 20 ]
+      ]
+    }
+  ],
+
+  "initialModules": [ 0, 0, 0, 0, 0 ],
+
+  "modules": [
+    {
+      "iconPath": "./Assets/fx/headbands/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/headbands/heart/Heart Headband Textures/1_initialShadingGroup_BaseColor.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

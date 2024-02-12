@@ -1,0 +1,48 @@
+{
+  "maxOnScreen": 1,
+
+  "iconPath": "./assets/fx/surface_demo/icon.png",
+
+  "trackingType": "surface",
+
+  "models": [
+    {
+      "type": "3DModel",
+      "name": "Flag",
+      "OBJ": "./assets/fx/surface_demo/flag/flag_000001.obj",
+      "modelShift": [ 0.0, -1.0, 0.0 ],
+      "modelScale": 1.2
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "cullFace": "false",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.2, 0.4, 1, 0 ],
+        [ "ambientLight", 0.6, 0.6, 0.6 ],
+        [ "diffuseLight", 0.6, 0.6, 0.6 ],
+        [ "specularLight", 0.15, 0.15, 0.15 ],
+        [ "specularPower", 5 ]
+      ]
+    }
+  ],  
+  
+  "modules": [
+    {
+      "iconPath": "./assets/fx/surface_demo/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./assets/fx/surface_demo/flag/texture.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

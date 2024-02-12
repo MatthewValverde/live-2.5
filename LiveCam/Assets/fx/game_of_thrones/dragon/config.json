@@ -1,0 +1,62 @@
+{
+  "maxOnScreen": 1,
+  "models": [
+    {
+      "type": "3DAnimatedModel",
+      "name": "GameOfThronesDragon",
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/Dragon_00001.obj",
+      "modelShift": [ 0, 0, 0 ],
+      "modelScale": 2.5,
+      "particles": [
+        {
+          "JSONsource": "./Assets/fx/game_of_thrones/dragon/particles_eye-glow.json",
+          "coords": [ 0.5, 0.7, 0.7 ],
+          "enable_rotation": true,
+          "always_enabled": true
+        },
+        {
+          "JSONsource": "./Assets/fx/game_of_thrones/dragon/particles_dragon-fire.json",
+          "coords": [ 0.5, 0.5, 0.7 ],
+          "enable_rotation": true
+        }
+      ],
+      "SequenceJSON": "./Assets/fx/game_of_thrones/dragon/sequence.json"
+    }
+  ],
+
+  "renderParams": [
+     {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "normalMap": "./Assets/fx/game_of_thrones/dragon/models/textures/Normal.jpg",
+      "diffuseTexture": "./Assets/fx/game_of_thrones/dragon/models/textures/Albedo.jpg",
+      "specularTexture": "./Assets/fx/game_of_thrones/dragon/models/textures/Specular.jpg",
+      "emissiveTexture": "./Assets/fx/game_of_thrones/dragon/models/textures/Emissive.png",
+      "cullFace": "false",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.3, 0 ],
+        [ "ambientLight", 0.3, 0.3, 0.3 ],
+        [ "diffuseLight", 1, 1, 1 ],
+        [ "specularLight", 0.1, 0.1, 0.1 ],
+        [ "specularPower", 20 ]
+      ]
+    }
+  ],
+
+  "initialModules": [ 0 ],
+
+  "modules": [
+    {
+      "iconPath": "Assets/fx/game_of_thrones/dragon/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/game_of_thrones/dragon/models/textures/Albedo.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

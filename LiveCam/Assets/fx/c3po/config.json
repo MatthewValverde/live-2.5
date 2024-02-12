@@ -1,0 +1,76 @@
+{
+
+  "iconPath": "./Assets/fx/c3po/icon.png",
+  "maxOnScreen": 2,
+  "models": [
+    {
+      "type": "3DModel",
+      "name": "head",
+      "OBJ": "./Assets/fx/c3po/c3po.obj",
+      "MTL": "./Assets/fx/c3po/c3po.mtl",
+      "modelShift": [ 0, 0, 0 ],
+      "modelScale": 1.5
+    },
+    {
+      "type": "3DModel",
+      "name": "eyes_mouth",
+      "OBJ": "./Assets/fx/c3po/c3po2.obj",
+      "MTL": "./Assets/fx/c3po/c3po2.mtl",
+      "modelShift": [ 0, -0.25, 0.3 ],
+      "modelScale": 0.9
+    }
+  ],
+
+  "renderParams": [
+    {
+      "vertexShader": "./Assets/shaders/vertex/metallic.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/metallic.frag",
+      "normalMap": "./Assets/fx/c3po/Normal.jpg",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.5, 0 ],
+        [ "ambientLight", 0.33, 0.33, 0.33 ],
+        [ "diffuseLight", 0.67, 0.67, 0.45 ],
+        [ "specularLight", 1, 1, 1 ],
+        [ "specularPower", 20 ]
+      ]
+    },
+    {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "normalMap": "./Assets/fx/c3po/Normal.jpg",
+      "alphaTest": "true",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.5, 0 ],
+        [ "ambientLight", 0.6, 0.6, 0.6 ],
+        [ "diffuseLight", 1, 1, 1 ],
+        [ "specularLight", 1, 1, 1 ],
+        [ "specularPower", 10 ]
+      ]
+    }
+  ],
+
+  "initialModules": [ 0, 0, 0, 0, 0 ],
+
+  "modules": [
+    {
+      "iconPath": "./Assets/fx/c3po/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/c3po/Diffuse.jpg"
+          ]
+        },
+        {
+          "renderParamsIDs": [ 1 ],
+          "modelTextures": [
+            "./Assets/fx/c3po/eyemouth.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

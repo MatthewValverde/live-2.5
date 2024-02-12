@@ -1,0 +1,74 @@
+{
+  "filterConfig": [
+    {
+      "title": "Cyclops",
+      "icon": "./assets/fx/cyclops/icon.png",
+      "JSONsource": "./assets/fx/cyclops/config.json"
+    },
+    {
+      "title": "Headband",
+      "icon": "./assets/fx/headbands/icon.png",
+      "JSONsource": "./assets/fx/headbands/config.json"
+    },
+    {
+      "title": "Daft Punk",
+      "icon": "./assets/fx/daft_punk/icon.png",
+      "JSONsource": "./assets/fx/daft_punk/config.json"
+    },
+    {
+      "title": "Dog Face",
+      "icon": "./assets/fx/dog/icon.png",
+      "JSONsource": "./assets/fx/dog/config.json"
+    },
+    {
+      "title": "C3PO",
+      "icon": "./assets/fx/c3po/icon.png",
+      "JSONsource": "./assets/fx/c3po/config.json"
+    },
+    {
+      "title": "3D Emoji",
+      "icon": "./assets/fx/emojis_3d/icon.png",
+      "JSONsource": "./assets/fx/emojis_3d/config.json"
+    },
+    {
+      "title": "Dragon",
+      "icon": "./assets/fx/game_of_thrones/dragon/icon.png",
+      "JSONsource": "./assets/fx/game_of_thrones/dragon/config.json"
+    },
+    {
+      "title": "Whitewalker",
+      "icon": "./assets/fx/game_of_thrones/whitewalker/icon.png",
+      "JSONsource": "./assets/fx/game_of_thrones/whitewalker/config.json"
+    },
+    {
+      "title": "Facepaint",
+      "icon": "./assets/fx/game_of_thrones/facepaint/icon.png",
+      "JSONsource": "./assets/fx/game_of_thrones/facepaint/config.json"
+    },
+    {
+      "title": "Knight Helmet",
+      "icon": "./assets/fx/knight_armor/icon.png",
+      "JSONsource": "./assets/fx/knight_armor/config.json"
+    },
+    {
+      "title": "Groot",
+      "icon": "./assets/fx/groot/icon.png",
+      "JSONsource": "./assets/fx/groot/config.json"
+    },
+    {
+      "title": "Emoji",
+      "icon": "./assets/fx/emoji/icon.png",
+      "JSONsource": "./assets/fx/emoji/config.json"
+    },
+    {
+      "title": "Emoji Animated",
+      "icon": "./assets/fx/emojis_animated/icon.png",
+      "JSONsource": "./assets/fx/emojis_animated/config.json"
+    },
+    {
+      "title": "Surface Demo",
+      "icon": "./assets/fx/surface_demo/icon.png",
+      "JSONsource": "./assets/fx/surface_demo/config.json"
+    }
+  ]
+}

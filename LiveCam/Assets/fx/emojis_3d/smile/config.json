@@ -1,0 +1,45 @@
+{
+  "maxOnScreen": 1,
+  "models": [
+    {
+      "type": "3DAnimatedModel",
+      "name": "Emoji3D_Cool",
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000001.obj",
+      "modelShift": [ 0, 0, 0 ],
+      "modelScale": 1.5,
+      "SequenceJSON": "./Assets/fx/emojis_3d/smile/sequence.json"
+    }
+  ],
+
+  "renderParams": [
+     {
+      "vertexShader": "./Assets/shaders/vertex/default.vertex",
+      "fragmentShader": "./Assets/shaders/fragment/phong.frag",
+      "cullFace": "false",
+      "uniforms": [
+        [ "cameraPos", 0, 0, 0, 1 ],
+        [ "lightPos", 0.3, 0.3, 0.3, 0 ],
+        [ "ambientLight", 0.3, 0.3, 0.3 ],
+        [ "diffuseLight", 1, 1, 1 ],
+        [ "specularLight", 0.4, 0.4, 0.4 ],
+        [ "specularPower", 10 ]
+      ]
+    }
+  ],
+
+  "initialModules": [ 0 ],
+
+  "modules": [
+    {
+      "iconPath": "Assets/fx/emojis_3d/smile/icon.png",
+      "suits": [
+        {
+          "renderParamsIDs": [ 0 ],
+          "modelTextures": [
+            "./Assets/fx/emojis_3d/smile/texture.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

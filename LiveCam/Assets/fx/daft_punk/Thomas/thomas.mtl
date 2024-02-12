@@ -1,0 +1,24 @@
+# Blender MTL File: 'thomas.blend'
+# Material Count: 2
+
+newmtl helmet_material
+Ns 547.058824
+Ka 1.000000 1.000000 1.000000
+Kd 0.402030 0.578151 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd textures\Texture.jpg
+
+newmtl visor_material
+Ns 194.117647
+Ka 0.311594 0.311594 0.311594
+Kd 0.002203 0.002389 0.003392
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd textures\Texture.jpg

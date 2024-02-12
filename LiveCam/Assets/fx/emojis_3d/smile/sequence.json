@@ -1,0 +1,54 @@
+{
+  "Sequence": [
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000001.obj",
+      "duration": 60.0
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000002.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000003.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000004.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000005.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000006.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000007.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000008.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000009.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000010.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000011.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000012.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000013.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000014.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000015.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/smile/smile_000016.obj",
+      "duration": 20.0
+    }
+  ]
+}

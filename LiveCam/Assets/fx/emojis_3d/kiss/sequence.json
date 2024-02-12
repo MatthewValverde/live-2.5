@@ -1,0 +1,83 @@
+{
+  "Sequence": [
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000001.obj",
+      "duration": 60.0
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000002.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000003.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000004.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000005.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000006.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000007.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000008.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000009.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000010.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000011.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000012.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000013.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000014.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000015.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000016.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000017.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000018.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000019.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000020.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000021.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000022.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000023.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000024.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000025.obj"
+    },
+    {
+      "OBJ": "./Assets/fx/emojis_3d/kiss/kiss_000026.obj"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "Sequence": [
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00001.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00001.mtl",
+      "duration": 6.0
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00002.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00002.mtl"
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00003.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00003.mtl"
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00004.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00004.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00005.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00005.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00006.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00006.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00007.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00007.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00008.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00008.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_00009.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_00009.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_000010.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_000010.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_000011.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_000011.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_000012.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_000012.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_000013.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_000013.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_000014.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_000014.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_000015.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_000015.mtl",
+      "particlesEnabled": true
+    },
+    {
+      "OBJ": "./Assets/fx/game_of_thrones/dragon/models/dragon_000016.obj",
+      "MTL": "./Assets/fx/game_of_thrones/dragon/models/dragon_000016.mtl",
+      "particlesEnabled": true,
+      "duration": 20.0
+    }
+  ]
+}

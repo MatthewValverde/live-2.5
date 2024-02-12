@@ -1,0 +1,24 @@
+# Blender MTL File: 'guy_manuel.blend'
+# Material Count: 2
+
+newmtl Material.001
+Ns 194.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.362691 0.012053
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Texture.jpg
+
+newmtl Material.002
+Ns 390.196078
+Ka 1.000000 1.000000 1.000000
+Kd 0.009393 0.010285 0.015077
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Texture.jpg

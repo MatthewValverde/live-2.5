@@ -1,0 +1,13 @@
+# Blender MTL File: 'kiss.blend'
+# Material Count: 1
+
+newmtl phong2
+Ns 200.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd F:\\PROJECTS\\PROJECT_ASSETS\\GameChangerMVP\\FanFilterModels\\3d Emoji\\kiss\\texture.png
